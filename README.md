@@ -16,7 +16,7 @@ This guide is to run a sample application on openshift cluster using tekton
 1. clone the repo 
 
 ```
-$ git clone https://github.com/SaifRehman/nodejs-tekton-openshift.git
+$ git clone https://github.com/Ajmal001/nodejs-tekton-openshiftk8.git
 ```
 2. Navigate to the directory 
 
