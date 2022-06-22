@@ -33,9 +33,9 @@ cd nodejs-tekton-openshiftk8
 
 3. Configure secret 
 
-* Create ```docker.cofig.json```
+* Create ```docker.config.json```
 ```
-touch docker.cofig.json
+touch docker.config.json
 ```
 * populate with the following data 
 
