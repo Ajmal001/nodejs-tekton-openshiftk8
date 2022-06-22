@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-tekton-openshift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaifRehman/nodejs-tekton-openshift.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaifRehman/nodejs-tekton-openshift/issues"
+  },
+  "homepage": "https://github.com/SaifRehman/nodejs-tekton-openshift#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.5.0",
+    "mocha": "^8.0.1",
+    "request": "^2.88.2"
+  }
+}

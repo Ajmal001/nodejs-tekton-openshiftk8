@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejsdc
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: "dev"
+  template:
+    metadata:
+      labels:
+        app: "dev"
+    spec:
+      containers:
+        - image: __IMAGE__
+          imagePullPolicy: Always
+          name: nodejs
+          ports:
+            - containerPort: 3000
+              protocol: "TCP"
