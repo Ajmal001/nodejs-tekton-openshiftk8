@@ -35,7 +35,7 @@ cd nodejs-tekton-openshift
 
 * Create ```docker.cofig.json```
 ```
-$ touch docker.cofig.json
+touch docker.cofig.json
 ```
 * populate with the following data 
 
