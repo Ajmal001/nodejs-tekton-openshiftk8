@@ -21,7 +21,7 @@ git clone https://github.com/Ajmal001/nodejs-tekton-openshiftk8.git
 2. Navigate to the directory 
 
 ```
-cd nodejs-tekton-openshift
+cd nodejs-tekton-openshiftk8
 ```
 
 * in ```kubernetes``` folder you have all kubernetes artifacts
